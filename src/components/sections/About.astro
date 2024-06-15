@@ -1,7 +1,18 @@
 ---
 import Section from "@/components/Section.astro";
+
+import { basics } from "@cv"
+const { summary } = basics
 ---
 
-<Section tittle="About">
-
+<Section tittle="Sobre mi">
+<p>{summary}</p>
 </Section>
+
+
+<style>
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+</style>

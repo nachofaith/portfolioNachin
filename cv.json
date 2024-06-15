@@ -1,20 +1,21 @@
 {
-    "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "https://avatars.githubusercontent.com/u/43449665?s=400&u=b01fb31c02b1aa8e0f1b396c9660a0e3524d9a25&v=4",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
+  "basics": {
+    "name": "Rubén Ignacio Godoy Garrido",
+    "label": "Ingeniero en Informatica y desarrollador FullStack",
+    "image": "./src/img/avatar.jpeg",
+    "email": "john@gmail.com",
+    "phone": "(912) 555-4321",
+    "url": "https://johndoe.com",
+    "summary": "Rubén Godoy cuenta con una amplia experiencia en el desarrollo de aplicaciones web, aplicaciones y bases de datos, sumado a más de tres años de experiencia en el área de Quality Assurance en software para el sector bancario chileno. Además, ha desempeñado roles como Ingeniero de Operaciones para Entel en Chile y Perú, y cuenta con experiencia previa en la dirección de equipos técnicos.",
+    "location": {
+      "address": "Huara #5240",
+      "postalCode": "",
+      "city": "Santiago",
+      "countryCode": "CL 🇨🇱",
+      "region": "Metropolitana"
+    },
+    "profiles": [
+      {
         "network": "X",
         "username": "nachofaith",
         "url": "https://x.com/nachofaith"
@@ -30,34 +31,60 @@
         "username": "nachofaith",
         "url": "https://github.com/nachofaith"
       }
-    
-    
-    
     ]
+  },
+  "work": [
+    {
+      "name": "Rel&Com",
+      "position": "Jefe de equipo tecnico en redes computacionales",
+      "url": "https://relcom.cl",
+      "startDate": "2009-12-12",
+      "endDate": "2013-12-12",
+      "summary": "Técnico certificado en cableado estructurado de redes de acuerdo a normas EIA/TIA568, a cargo de equipos de trabajo en terreno, a lo largo del país.",
+      "highlights": ["Started the company"]
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
+    {
+      "name": "Hewlett-Packard",
+      "position": "Tester QA",
+      "url": "https://relcom.cl",
+      "startDate": "2013-12-12",
+      "endDate": "2017-12-12",
+      "summary": "Analista tester QA en laempresa HP participando en multiples proyectos para el cliente Banco de Chile y Continuidad Productiva",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Kiwox Spa",
+      "position": "Ingeniero de Operaciones",
+      "url": "https://www.kiwox.cl",
+      "startDate": "2017-12-12",
+      "endDate": "2018-12-12",
+      "summary": "Ingeniero de operaciones para empresa contratista de Entel, prestando servicios para los distintos sistemas brindados para Entel Chile y Entel Perú",
+      "highlights": ["Started the company"]
+    }
+    ,
+    {
+      "name": "MPGroup",
+      "position": "FrontEnd Developer",
+      "url": "https://mpgroup.cl/",
+      "startDate": "2018-12-12",
+      "endDate": "2018-12-12",
+      "summary": "Desarrollador en lenguajes tales como Java, PHP y Javascript principalmente para el manejo de herramientas Oracle (OracleCloud, RightNow, Eloqua)",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
       "organization": "Organization",
       "position": "Volunteer",
       "url": "https://organization.com/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
       "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
       "institution": "University",
       "url": "https://institution.com/",
       "area": "Software Development",
@@ -65,61 +92,139 @@
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
       "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
       "title": "Award",
       "date": "2014-11-01",
       "awarder": "Company",
       "summary": "There is no spoon."
-    }],
-    "certificates": [{
+    }
+  ],
+  "certificates": [
+    {
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
       "url": "https://certificate.com"
-    }],
-    "publications": [{
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Web Development",
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "GNU/Linux",
       "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "HTML5",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "CSS3",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "TailWind",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+    ,
+    {
+      "name": "Wordpress",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "WooCommerce",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+    
+
+
+  ],
+  "languages": [
+    {
       "language": "English",
       "fluency": "Native speaker"
-    }],
-    "interests": [{
+    }
+  ],
+  "interests": [
+    {
       "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
-    }]
-  }
+    }
+  ],
+  "projects": [
+    {
+      "name": "NGG Store",
+      "isActive": true,
+      "startDate": "2018-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia ",
+      "highlights": ["E-Commerce", "WooCommerce", "Wordpress", "LAMP"],
+      "url": "https://tienda.ngg.cl/"
+    },
+    {
+      "name": "IGG",
+      "isActive": true,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina WEB Portafolio para Empresa de informatica y tecnologia IGG",
+      "highlights": ["Astro", "JavaScript", "HTML5", "CSS3"],
+      "url": "https://igg.cl/"
+    },
+    {
+      "name": "Barracuda Fishing Shop",
+      "isActive": true,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina e-commerce para tienda dedicada a la venta de articulos deportivos y de Pesca ",
+      "highlights": ["E-Commerce", "WooCommerce", "Wordpress", "LAMP"],
+      "url": "https://barracudafishing.cl/"
+    },
+    {
+      "name": "NGG Store V2",
+      "isActive": true,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia, desarrollada con tecnologia JavaSript mediante el uso de FrameWork React",
+      "highlights": ["JavaScript", "React", "E-Commerce"],
+      "url": "https://tienda.ngg.cl/"
+    }
+  ]
+}
