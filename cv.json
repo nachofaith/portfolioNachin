@@ -225,6 +225,24 @@
       "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia, desarrollada con tecnologia JavaSript mediante el uso de FrameWork React",
       "highlights": ["JavaScript", "React", "E-Commerce"],
       "url": "https://tienda.ngg.cl/"
+    },
+    {
+      "name": "Barracuda Fishing Shop",
+      "isActive": true,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina e-commerce para tienda dedicada a la venta de articulos deportivos y de Pesca ",
+      "highlights": ["E-Commerce", "WooCommerce", "Wordpress", "LAMP"],
+      "url": "https://barracudafishing.cl/"
+    },
+    {
+      "name": "NGG Store V2",
+      "isActive": true,
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia, desarrollada con tecnologia JavaSript mediante el uso de FrameWork React",
+      "highlights": ["JavaScript", "React", "E-Commerce"],
+      "url": "https://tienda.ngg.cl/"
     }
   ]
 }
