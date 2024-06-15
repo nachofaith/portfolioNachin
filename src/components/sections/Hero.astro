@@ -1,8 +1,23 @@
 ---
+
+import { basics } from "@cv";
+import type { SocialIcon } from "@/types"
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro"
+import X from "@/icons/X.astro"
+
+
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
-import { basics } from "@cv";
-import Section from "@/components/Section.astro";
+
+const SOCIAL_ICONS: SocialIcon = {
+  GitHub,
+  LinkedIn,
+  X,
+}
 ---
 
 <Section>
@@ -22,10 +37,38 @@ import Section from "@/components/Section.astro";
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* robar icono */}
-              📧
+              <Mail />
             </a>
           )
+        }
+
+        {
+          phone && (
+            <a
+              href={`tel:${phone}`}
+              title={`Llamar por telefono a ${name} al numero ${phone} `}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network]
+
+            return (
+              <a
+                href={url}
+                title={`Visitar el perfil de ${username} en ${network}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <Icon />
+              </a>
+            )
+          })
         }
       </footer>
     </div>

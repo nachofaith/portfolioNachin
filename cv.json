@@ -15,10 +15,25 @@
         "region": "California"
       },
       "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+        "network": "X",
+        "username": "nachofaith",
+        "url": "https://x.com/nachofaith"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Ruben Godoy",
+        "url": "https://www.linkedin.com/in/rub%C3%A9n-godoy-711985226/"
+      },
+
+      {
+        "network": "GitHub",
+        "username": "nachofaith",
+        "url": "https://github.com/nachofaith"
+      }
+    
+    
+    
+    ]
     },
     "work": [{
       "name": "Company",
