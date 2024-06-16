@@ -192,7 +192,7 @@
   "projects": [
     {
       "name": "NGG Store",
-      "isActive": true,
+      "isActive": false,
       "startDate": "2018-01-01",
       "endDate": "2024-01-01",
       "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia ",
