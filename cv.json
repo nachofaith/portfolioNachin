@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Rubén Ignacio Godoy Garrido",
-    "label": "Ingeniero en Informatica y desarrollador FullStack",
+    "label": "Ingeniero en Informática y desarrollador FullStack",
     "image": "./src/img/avatar.jpeg",
     "email": "ruben.godoy@ngg.cl",
     "phone": "+56966664871",
@@ -49,7 +49,7 @@
       "url": "https://relcom.cl",
       "startDate": "2013-12-12",
       "endDate": "2017-12-12",
-      "summary": "Analista tester QA en laempresa HP participando en multiples proyectos para el cliente Banco de Chile y Continuidad Productiva",
+      "summary": "Analista tester QA en la empresa HP participando en múltiples proyectos para el cliente Banco de Chile y Continuidad Productiva",
       "highlights": ["Started the company"]
     },
     {
@@ -234,15 +234,6 @@
       "description": "Pagina e-commerce para tienda dedicada a la venta de articulos deportivos y de Pesca ",
       "highlights": ["E-Commerce", "WooCommerce", "Wordpress", "LAMP"],
       "url": "https://barracudafishing.cl/"
-    },
-    {
-      "name": "NGG Store V2",
-      "isActive": true,
-      "startDate": "2024-01-01",
-      "endDate": "2024-01-01",
-      "description": "Pagina e-commerce para tienda dedicada a la venta de tecnologia, desarrollada con tecnologia JavaSript mediante el uso de FrameWork React",
-      "highlights": ["JavaScript", "React", "E-Commerce"],
-      "url": "https://tienda.ngg.cl/"
     }
   ]
 }
